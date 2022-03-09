@@ -31,7 +31,7 @@ router.get('/:id', (req, res) => {
 		}]
 	}).then(data => {
 		if (!data) {
-			res.status(404);
+			res.status(404).send();
 			return;
 		}
 		res.json(data);
@@ -59,7 +59,7 @@ router.put('/:id', (req, res) => {
 		}
 	}).then(data => {
 		if (!data) {
-			res.status(404);
+			res.status(404).send();
 			return;
 		}
 		res.json(data);
@@ -77,11 +77,14 @@ router.delete('/:id', (req, res) => {
     }
   })
     .then(data => {
+			console.log("i'm there");
+			console.log(data);
       if (!data) {
-        res.status(404);
+        res.status(404).send();
         return;
       }
       res.status(200).json(data);
+			console.log("i'm here");
     })
     .catch(err => {
       console.log(err);

@@ -31,7 +31,7 @@ router.get('/:id', (req, res) => {
 		}]
 	}).then(data => {
 		if (!data) {
-			res.status(404);
+			res.status(404).send();
 			return;
 		}
 		res.json(data);
@@ -59,7 +59,7 @@ router.put('/:id', (req, res) => {
 		}
 	}).then(data => {
 		if (!data) {
-			res.status(404);
+			res.status(404).send();
 			return;
 		}
 		res.json(data);
@@ -78,7 +78,7 @@ router.delete('/:id', (req, res) => {
   })
     .then(dbPostData => {
       if (!dbPostData) {
-        res.status(404);
+        res.status(404).send();
         return;
       }
       res.status(200).json(dbPostData);
