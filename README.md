@@ -20,37 +20,53 @@ Follow this video:
 1. Clone the repository
 2. From the command line, navigate to the repository directory
 3. Initialize the database with:
-        mysql -u root -p
+	```
+	mysql -u root -p
+	```
 4. Run:
-        source db/schema.sql
+	```
+	source db/schema.sql
+	```
 5. To quit MySQL Server, Run:
-        quit
+	```
+	quit
+	```
 6. You can seed the database with data by modifying the files in the folder `seeds`. When you're ready, run:
-        node seeds
+	```
+	node seeds
+	```
 7. To use your password for MySQL Server, follow these steps:
-    1. In the top level, Run: 
-	        touch .env
+	1. In the top level, Run: 
+	    ```
+	    touch .env
+	    ```
 	2. Type into the file:
-	
-	    `DB_NAME='ecommerce_db'`		
-        `DB_USER='<USERNAME>'`		
-        `DB_PW='<PASSWORD>'`
+	    ```
+	    DB_NAME='ecommerce_db'
+	    DB_USER='<USERNAME>'
+	    DB_PW='<PASSWORD>'
+	    ```
 	
 8. Run:
-        npm init
+	```
+	npm init
+	```
 
 ### Running the server:
 
 1. From the repository directory, Run:
-        node server
+	```
+	node server
+	```
 
 ### Using the server
 
 The api routes are as follows:
-
+	```
         http://localhost:3001/api/categories
         http://localhost:3001/api/products
         http://localhost:3001/api/tags
+	```
 
 ## Credits
 
