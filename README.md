@@ -19,23 +19,7 @@ Follow this video:
 
 1. Clone the repository
 2. From the command line, navigate to the repository directory
-3. Initialize the database with:
-	```
-	mysql -u root -p
-	```
-4. Run:
-	```
-	source db/schema.sql
-	```
-5. To quit MySQL Server, Run:
-	```
-	quit
-	```
-6. You can seed the database with data by modifying the files in the folder `seeds`. When you're ready, run:
-	```
-	node seeds
-	```
-7. To use your password for MySQL Server, follow these steps:
+3. To use your password for MySQL Server, follow these steps:
 	1. In the top level, Run: 
 	    ```
 	    touch .env
@@ -47,10 +31,27 @@ Follow this video:
 	    DB_PW='<PASSWORD>'
 	    ```
 	
-8. Run:
+4. Run:
 	```
 	npm init
 	```
+5. Initialize the database with:
+	```
+	mysql -u root -p
+	```
+6. Run:
+	```
+	source db/schema.sql
+	```
+7. To quit MySQL Server, Run:
+	```
+	quit
+	```
+8. You can seed the database with data by modifying the files in the folder `seeds`. When you're ready, run:
+	```
+	node seeds
+	```
+
 
 ### Running the server:
 
