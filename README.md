@@ -63,11 +63,11 @@ Follow this video:
 ### Using the server
 
 The api routes are as follows:
-	```
-        http://localhost:3001/api/categories
-        http://localhost:3001/api/products
-        http://localhost:3001/api/tags
-	```
+```
+http://localhost:3001/api/categories
+http://localhost:3001/api/products
+http://localhost:3001/api/tags
+```
 
 ## Credits
 
