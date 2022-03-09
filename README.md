@@ -33,7 +33,7 @@ Follow this video:
 	
 4. Run:
 	```
-	npm init
+	npm install
 	```
 5. Initialize the database with:
 	```
