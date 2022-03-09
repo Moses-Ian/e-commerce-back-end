@@ -8,7 +8,7 @@ This program will help you keep track of your online store, with categories, pro
 
 Follow this video:
 
-[video]()
+[video](https://watch.screencastify.com/v/z5Ovegt4WixbJqotbTc6)
 
 ### Before you begin:
 
