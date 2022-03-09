@@ -13,6 +13,7 @@ Follow this video:
 ### Before you begin:
 
 1. Make sure you have MySQL Server installed.
+2. Make sure you have Insomnia installed.
 
 ### One-time Setup:
 
@@ -38,12 +39,18 @@ Follow this video:
 8. Run:
         npm init
 
-### Running the program:
+### Running the server:
 
 1. From the repository directory, Run:
-        node index
-2. Answer the questions
-3. To do multiple actions, run the program again.
+        node server
+
+### Using the server
+
+The api routes are as follows:
+
+        http://localhost:3001/api/categories
+        http://localhost:3001/api/products
+        http://localhost:3001/api/tags
 
 ## Credits
 
